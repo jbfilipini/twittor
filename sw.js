@@ -7,25 +7,25 @@ const DYNAMIC_CACHE = 'dynamic-v1';
 const INMUTABLE_CACHE= 'inmutable-v1';
 
 const APP_SHELL = [
-    '/',
-    '/index.html',
-    '/css/style.css',
-    '/img/favicon.ico',
+    // '/',
+    'index.html',
+    'css/style.css',
+    'img/favicon.ico',
     'img/avatars/spiderman.jpg',
     'img/avatars/wolverine.jpg',
     'img/avatars/hulk.jpg',
     'img/avatars/ironman.jpg',
     'img/avatars/thor.jpg',
-    '/js/app.js',
-    '/js/sw-utils.js',
+    'js/app.js',
+    'js/sw-utils.js',
 ]
 
 const APP_SHELL_INMUTABLE = [
     'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
     'https://fonts.googleapis.com/css?family=Quicksand:300,400',
     'https://fonts.googleapis.com/css?family=Lato:400,300',
-    '/css/animate.css',
-    '/js/libs/jquery.js',
+    'css/animate.css',
+    'js/libs/jquery.js',
 
 ];
 
